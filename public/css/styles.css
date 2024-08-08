@@ -1,0 +1,79 @@
+/* Container for the form */
+.blog-post-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.blog-post-form-container .form-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form elements */
+.blog-post-form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.blog-post-form-container input[type="text"],
+.blog-post-form-container textarea,
+.blog-post-form-container input[type="file"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.blog-post-form-container input[type="file"] {
+  padding: 0;
+}
+
+.blog-post-form-container input[type="submit"] {
+  background-color: #e98c00; /* Button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.blog-post-form-container input[type="submit"]:hover {
+  background-color: #d87b00; /* Darker shade on hover */
+}
+
+/* Error and success messages */
+.blog-post-form-success,
+.blog-post-form-error {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.blog-post-form-success {
+  color: #4caf50;
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+}
+
+.blog-post-form-error {
+  color: #f44336;
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+}
